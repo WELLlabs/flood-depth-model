@@ -41,3 +41,10 @@ sample_predictions/
 
 # Cache
 .cache/
+
+# Raw local datasets, kept on disk but not in git
+training_data/**/*.jpg
+training_data/**/*.jpeg
+training_data/**/*.png
+training_data/**/*.webp
+training_data/**/*.avif
